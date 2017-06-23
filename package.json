@@ -1,0 +1,16 @@
+{
+  "name": "optimization",
+  "version": "1.0.0",
+  "description": "Udacity FEND Project Optimization",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-npm-install": "^0.3.1",
+    "jshint-stylish": "^2.2.1"
+  }
+}
