@@ -572,8 +572,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Replace querySelector with the faster getElementById
   var movingPizzas1 = document.getElementById("movingPizzas1");
   // Set the number of sliding pizzas to 36
-  for (var i = 0; i < 36; i++) {
-    var elem = document.createElement('img');
+  for (var i = 0, elem; i < 36; i++) {
+    elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
